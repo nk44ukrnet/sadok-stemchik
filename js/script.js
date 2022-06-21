@@ -1,0 +1,3 @@
+window.addEventListener('DOContentLoaded', function () {
+
+});
