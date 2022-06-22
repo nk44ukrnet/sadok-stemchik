@@ -328,8 +328,26 @@ a:hover {
   background-image: url('../img/index-study-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   margin-top: -206px;
   padding-top: 236px;
+  position: relative;
+}
+.index-study:before {
+  content: '';
+  width: 630px;
+  height: 630px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+  background-image: url(../img/red-lines-pseudo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.index-study__container {
+  padding-bottom: 101px;
 }
 .index-study__heading {
   margin-bottom: 48px;
@@ -381,5 +399,42 @@ a:hover {
 }
 .index-study__item:nth-child(4):before {
   transform: rotate(8.8deg);
+}
+.index-study__text {
+  color: var(--yellow);
+}
+.index-study__text strong {
+  position: relative;
+  font-size: 108px;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  margin-right: 8px;
+}
+.index-study__text strong:before {
+  content: attr(data-before);
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  top: 0;
+  left: 0;
+}
+.index-study__text strong:after {
+  content: attr(data-after);
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  bottom: 0;
+  right: 0;
+}
+.index-study__text em {
+  margin-right: 100px;
+}
+.index-study__text small {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.36;
+  margin-right: 8px;
 }
 /*# sourceMappingURL=styles.css.map */
