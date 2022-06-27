@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1118b29-945b-437f-9756-d081337195c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sadok-stemchik.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_fonts.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/_fonts.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/_index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_utilities.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/_utilities.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Less File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Apc0epti5BTHI2pPRO3NiEcIDp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1118b29-945b-437f-9756-d081337195c5" name="Default Changelist" comment="" />
+      <created>1655709745298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655709745298</updated>
+      <workItem from="1655709748323" duration="7892000" />
+      <workItem from="1655736251360" duration="14000" />
+      <workItem from="1655835940167" duration="512000" />
+      <workItem from="1655966554400" duration="409000" />
+      <workItem from="1656315850902" duration="12418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="636" y="463" key="EditFileWatcherDialog" timestamp="1655712797656">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="636" y="463" key="EditFileWatcherDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1655712797656" />
+    <state x="748" y="440" key="FileChooserDialogImpl" timestamp="1655966961340">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="748" y="440" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1655966961340" />
+    <state x="713" y="389" width="672" height="678" key="search.everywhere.popup" timestamp="1656331484725">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="713" y="389" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1656331484725" />
+  </component>
+</project>
