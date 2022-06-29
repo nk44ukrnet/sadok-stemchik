@@ -10,21 +10,21 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/comfortaa/v38/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrQ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/comfortaa/v38/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrQ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/comfortaa/v38/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrQ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Nunito';
@@ -202,6 +202,96 @@ a:hover {
 }
 .header.menu_active .header__ul {
   display: block;
+}
+@media (max-width: 1365px) {
+  .header {
+    letter-spacing: 0.08em;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+  }
+  .header__container {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .header__logo_index {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .header__section {
+    justify-self: flex-end;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+  }
+  .header__tel {
+    position: relative;
+    z-index: 6;
+    font-size: 14px;
+  }
+  .header__tel img {
+    width: 20px;
+  }
+  .header__hamburger {
+    width: 51px;
+    height: 51px;
+  }
+  .header__ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    min-width: 340px;
+    background-color: var(--dark);
+    z-index: 5;
+    top: -25px;
+    left: -48px;
+    padding: 79px 20px 20px 43px;
+    border: 4px solid var(--yellow);
+    border-bottom-right-radius: 85px;
+  }
+  .header__li {
+    display: flex;
+    gap: 10px;
+    padding: 15px 0;
+    border-top: 2px solid var(--yellow);
+    font-size: 14px;
+  }
+  .header__li img {
+    width: 20px;
+  }
+  .header__li:last-child {
+    padding-bottom: 0;
+  }
+  .header__link {
+    white-space: nowrap;
+  }
+  .header.menu_active .header__hamburger {
+    background-image: url('../img/hamburger-cross-icon.svg');
+    background-size: 25px 25px;
+    background-position: center center;
+  }
+  .header.menu_active .header__ul {
+    display: block;
+  }
+}
+@media (max-width: 520px) {
+  .header__container {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .footer {
   background-color: var(--dark);
