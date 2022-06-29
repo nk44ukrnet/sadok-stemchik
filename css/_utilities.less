@@ -45,11 +45,20 @@ a {
   font-family: var(--font2);
   line-height: 149.5%;
   letter-spacing: 0.035em;
+
   &.heading_light {
     color: var(--yellow);
   }
+
   &.heading_dark {
     color: var(--dark);
+  }
+
+  @media (max-width: @tablet) {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 149.5%;
+    letter-spacing: 0;
   }
 }
 
@@ -58,4 +67,16 @@ a {
   background-image: url(../img/index-yellow-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.expand-container {
+  .expand-content {
+    display: none;
+  }
+
+  &.active {
+    .expand-content {
+      display: block;
+    }
+  }
 }

@@ -9,4 +9,16 @@ window.addEventListener('DOMContentLoaded', function () {
             }
         })
     }
+    //expand-collapse
+    let expandHeading = document.querySelectorAll('.expand-heading'),
+        expandContent = document.querySelectorAll('.expand-content'),
+        expandContainer = document.querySelectorAll('.expand-container');
+    if(expandHeading && expandContent && expandContainer) {
+        expandHeading.forEach(item=>{
+            item.addEventListener('click', e=>{
+                let current = e.target;
+                current.closest('.expand-container').classList.toggle('active');
+            })
+        })
+    }
 });
